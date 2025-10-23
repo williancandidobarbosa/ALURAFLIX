@@ -12,7 +12,7 @@ font-size:32px;
 color: rgb(42,122,228);
 }
 
-section {
+.chamada{
 background: rgb(184, 156, 213);
 padding-bottom: 80px;
 padding-top: 80px;
@@ -36,6 +36,18 @@ img {
   height: 200;
 }
 
-.categoria-videos {
-  display: flex;
+.categoria-videos{
+  display:flex;
+  overflow-x:auto;
+  gap: 10px;
+}
+
+.categoria{
+padding-left: 20%
+padding-right: 20%
+}
+
+.categoria-videos img {
+  opacity:   0.5;
+  height: 200;
 }
